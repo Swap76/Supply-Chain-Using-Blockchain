@@ -1,0 +1,25 @@
+123, "Iphone", "elegant", 100, 5000
+
+46086139033844717552234106424284750147090687154101113153009798991556469549802, "0x14723a09acff6d2a60dcdf7aa4aff308fddc160c", "0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db", "0x0000000000000000000000000000000000000000", "0x0000000000000000000000000000000000000000", "0x0000000000000000000000000000000000000000", "0x0000000000000000000000000000000000000000", "0x0000000000000000000000000000000000000000", "0x0000000000000000000000000000000000000000", "0x583031d1113ad414f02576bd6afabfb302140225"
+
+
+ if(flowOfObject[orderId].Addresses[4]!=0x0000000000000000000000000000000000000000){
+             BalanceOfMoney[flowOfObject[orderId].Addresses[4]]=BalanceOfMoney[flowOfObject[orderId].Addresses[4]]+(commisionAmount[flowOfObject[orderId].Addresses[4]]*itemMap[orderId].totalCost/100);
+             BalanceOfMoney[escrow]=BalanceOfMoney[escrow]-(commisionAmount[flowOfObject[orderId].Addresses[4]]*itemMap[orderId].totalCost/100);
+            }
+            
+            if(flowOfObject[orderId].Addresses[5]!=0x0000000000000000000000000000000000000000){
+             BalanceOfMoney[flowOfObject[orderId].Addresses[5]]=BalanceOfMoney[flowOfObject[orderId].Addresses[5]]+(commisionAmount[flowOfObject[orderId].Addresses[5]]*itemMap[orderId].totalCost/100);
+             BalanceOfMoney[escrow]=BalanceOfMoney[escrow]-(commisionAmount[flowOfObject[orderId].Addresses[5]]*itemMap[orderId].totalCost/100);
+            }
+            
+            if(flowOfObject[orderId].Addresses[6]!=0x0000000000000000000000000000000000000000){
+             BalanceOfMoney[flowOfObject[orderId].Addresses[6]]=BalanceOfMoney[flowOfObject[orderId].Addresses[6]]+(commisionAmount[flowOfObject[orderId].Addresses[6]]*itemMap[orderId].totalCost/100);
+             BalanceOfMoney[escrow]=BalanceOfMoney[escrow]-(commisionAmount[flowOfObject[orderId].Addresses[6]]*itemMap[orderId].totalCost/100);
+            }
+            
+            if(flowOfObject[orderId].Addresses[7]!=0x0000000000000000000000000000000000000000){
+             BalanceOfMoney[flowOfObject[orderId].Addresses[7]]=BalanceOfMoney[flowOfObject[orderId].Addresses[7]]+(commisionAmount[flowOfObject[orderId].Addresses[7]]*itemMap[orderId].totalCost/100);
+             BalanceOfMoney[escrow]=BalanceOfMoney[escrow]-(commisionAmount[flowOfObject[orderId].Addresses[7]]*itemMap[orderId].totalCost/100);
+            }
+            
